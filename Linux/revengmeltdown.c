@@ -53,7 +53,7 @@ void dump_range(const char* base) {
     if ((((uintptr_t)target) & 15) == 0) {
       printf("%p: ", target);
     }
-    int i = read_via_revendmeltdown(target);
+    int i = read_via_revengmeltdown(target);
     if (i < 0) {
       i = read_via_revengmeltdown(target);
     }
