@@ -2,7 +2,7 @@
 .intel_syntax noprefix
 .text
 
-.globl revengmeldown 
+.globl revengmeltdown 
 .type revengmeltdown, @function
 revengmeltdown:
   mfence
