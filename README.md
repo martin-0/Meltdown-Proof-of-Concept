@@ -3,7 +3,7 @@ Attempts to reverse the linux patch via debian security mailing list info to ver
 
 Not Production code nor should one run this on their own system with any guarantees.
 
-Will not run on OSX and similar BSD systems
+Linux proof of concept will not run on OSX and similar BSD systems
 
 
 $ gcc -O2 -std=gnu11 revengmeltdown.s revengmeltdown.c && ./a.out
